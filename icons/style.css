@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'JordOFF';
-  src:  url('fonts/JordOFF.eot?a2e89i');
-  src:  url('fonts/JordOFF.eot?a2e89i#iefix') format('embedded-opentype'),
-    url('fonts/JordOFF.ttf?a2e89i') format('truetype'),
-    url('fonts/JordOFF.woff?a2e89i') format('woff'),
-    url('fonts/JordOFF.svg?a2e89i#JordOFF') format('svg');
+  src:  url('fonts/JordOFF.eot?de868y');
+  src:  url('fonts/JordOFF.eot?de868y#iefix') format('embedded-opentype'),
+    url('fonts/JordOFF.ttf?de868y') format('truetype'),
+    url('fonts/JordOFF.woff?de868y') format('woff'),
+    url('fonts/JordOFF.svg?de868y#JordOFF') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,36 +25,51 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.jo-options:before {
-  content: "\e900";
-}
-.jo-heart:before {
-  content: "\e901";
+.jo-basket:before {
+  content: "\e90f";
 }
 .jo-close:before {
+  content: "\e900";
+}
+.jo-bell:before {
   content: "\e902";
 }
 .jo-check:before {
   content: "\e903";
 }
-.jo-arrow-right:before {
+.jo-star:before {
   content: "\e904";
 }
-.jo-arrow-down:before {
+.jo-options:before {
   content: "\e905";
 }
-.jo-arrow-up:before {
+.jo-search:before {
   content: "\e906";
 }
-.jo-arrow-left:before {
+.jo-more-horizontal:before {
   content: "\e907";
+}
+.jo-more-vertical:before {
+  content: "\e909";
+}
+.jo-map-pin:before {
+  content: "\e90a";
+}
+.jo-arrow-up:before {
+  content: "\e90b";
+}
+.jo-arrow-right:before {
+  content: "\e90c";
+}
+.jo-arrow-left:before {
+  content: "\e90d";
+}
+.jo-arrow-down:before {
+  content: "\e90e";
+}
+.jo-heart:before {
+  content: "\e901";
 }
 .jo-heart-solid:before {
   content: "\e908";
-}
-.jo-search:before {
-  content: "\e909";
-}
-.jo-point:before {
-  content: "\e90a";
 }
