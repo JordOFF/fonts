@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'JordOFF';
-  src:  url('fonts/JordOFF.eot?4bggvg');
-  src:  url('fonts/JordOFF.eot?4bggvg#iefix') format('embedded-opentype'),
-    url('fonts/JordOFF.ttf?4bggvg') format('truetype'),
-    url('fonts/JordOFF.woff?4bggvg') format('woff'),
-    url('fonts/JordOFF.svg?4bggvg#JordOFF') format('svg');
+  src:  url('fonts/JordOFF.eot?hc1fbf');
+  src:  url('fonts/JordOFF.eot?hc1fbf#iefix') format('embedded-opentype'),
+    url('fonts/JordOFF.ttf?hc1fbf') format('truetype'),
+    url('fonts/JordOFF.woff?hc1fbf') format('woff'),
+    url('fonts/JordOFF.svg?hc1fbf#JordOFF') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.jo-user:before {
+  content: "\e917";
+}
 .jo-heart-solid:before {
   content: "\e908";
 }
