@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'JordOFF';
-  src:  url('fonts/JordOFF.eot?ykbk6u');
-  src:  url('fonts/JordOFF.eot?ykbk6u#iefix') format('embedded-opentype'),
-    url('fonts/JordOFF.ttf?ykbk6u') format('truetype'),
-    url('fonts/JordOFF.woff?ykbk6u') format('woff'),
-    url('fonts/JordOFF.svg?ykbk6u#JordOFF') format('svg');
+  src:  url('fonts/JordOFF.eot?m5k2tp');
+  src:  url('fonts/JordOFF.eot?m5k2tp#iefix') format('embedded-opentype'),
+    url('fonts/JordOFF.ttf?m5k2tp') format('truetype'),
+    url('fonts/JordOFF.woff?m5k2tp') format('woff'),
+    url('fonts/JordOFF.svg?m5k2tp#JordOFF') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -43,7 +43,7 @@ i {
 .jo-arrow-up:before {
   content: "\e903";
 }
-.jo-arrow-rigjt:before {
+.jo-arrow-right:before {
   content: "\e904";
 }
 .jo-search:before {
