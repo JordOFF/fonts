@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'JordOFF';
-  src:  url('fonts/JordOFF.eot?blxvzu');
-  src:  url('fonts/JordOFF.eot?blxvzu#iefix') format('embedded-opentype'),
-    url('fonts/JordOFF.ttf?blxvzu') format('truetype'),
-    url('fonts/JordOFF.woff?blxvzu') format('woff'),
-    url('fonts/JordOFF.svg?blxvzu#JordOFF') format('svg');
+  src:  url('fonts/JordOFF.eot?sn32yz');
+  src:  url('fonts/JordOFF.eot?sn32yz#iefix') format('embedded-opentype'),
+    url('fonts/JordOFF.ttf?sn32yz') format('truetype'),
+    url('fonts/JordOFF.woff?sn32yz') format('woff'),
+    url('fonts/JordOFF.svg?sn32yz#JordOFF') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,20 +25,59 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.jo-heart:before {
+  content: "\e902";
+}
+.jo-stats:before {
+  content: "\e929";
+}
+.jo-chat:before {
+  content: "\e92a";
+}
+.jo-9:before {
+  content: "\e92b";
+}
+.jo-group:before {
+  content: "\e92c";
+}
+.jo-a:before {
+  content: "\e91d";
+}
+.jo-eye-off:before {
+  content: "\e91e";
+}
 .jo-eye:before {
-  content: "\e91a";
+  content: "\e91f";
+}
+.jo-lock:before {
+  content: "\e920";
+}
+.jo-at:before {
+  content: "\e921";
+}
+.jo-rub:before {
+  content: "\e922";
+}
+.jo-mobile:before {
+  content: "\e923";
+}
+.jo-user:before {
+  content: "\e924";
+}
+.jo-basket:before {
+  content: "\e925";
+}
+.jo-heart-solid:before {
+  content: "\e926";
+}
+.jo-bell:before {
+  content: "\e928";
+}
+.jo-promocode:before {
+  content: "\e91b";
 }
 .jo-play:before {
   content: "\e919";
-}
-.jo-user:before {
-  content: "\e917";
-}
-.jo-heart-solid:before {
-  content: "\e908";
-}
-.jo-heart:before {
-  content: "\e918";
 }
 .jo-youtube:before {
   content: "\e901";
@@ -64,14 +103,8 @@ i {
 .jo-pintrest:before {
   content: "\e916";
 }
-.jo-basket:before {
-  content: "\e90f";
-}
 .jo-close:before {
   content: "\e900";
-}
-.jo-bell:before {
-  content: "\e902";
 }
 .jo-check:before {
   content: "\e903";
