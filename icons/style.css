@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'JordOFF';
-  src:  url('fonts/JordOFF.eot?sn32yz');
-  src:  url('fonts/JordOFF.eot?sn32yz#iefix') format('embedded-opentype'),
-    url('fonts/JordOFF.ttf?sn32yz') format('truetype'),
-    url('fonts/JordOFF.woff?sn32yz') format('woff'),
-    url('fonts/JordOFF.svg?sn32yz#JordOFF') format('svg');
+  src:  url('fonts/JordOFF.eot?xbp27n');
+  src:  url('fonts/JordOFF.eot?xbp27n#iefix') format('embedded-opentype'),
+    url('fonts/JordOFF.ttf?xbp27n') format('truetype'),
+    url('fonts/JordOFF.woff?xbp27n') format('woff'),
+    url('fonts/JordOFF.svg?xbp27n#JordOFF') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,48 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.jo-map-pin:before {
+  content: "\e92f";
+}
+.jo-star:before {
+  content: "\e92b";
+}
+.jo-minus:before {
+  content: "\e917";
+}
+.jo-arrow-left:before {
+  content: "\e918";
+}
+.jo-arrow-right:before {
+  content: "\e91a";
+}
+.jo-arrow-up:before {
+  content: "\e91c";
+}
+.jo-arrow-down:before {
+  content: "\e927";
+}
+.jo-search:before {
+  content: "\e92d";
+}
+.jo-star-solid:before {
+  content: "\e92e";
+}
+.jo-plus:before {
+  content: "\e930";
+}
+.jo-close:before {
+  content: "\e931";
+}
+.jo-check:before {
+  content: "\e932";
+}
+.jo-support:before {
+  content: "\e90f";
+}
+.jo-b:before {
+  content: "\e908";
+}
 .jo-heart:before {
   content: "\e902";
 }
@@ -33,9 +75,6 @@ i {
 }
 .jo-chat:before {
   content: "\e92a";
-}
-.jo-9:before {
-  content: "\e92b";
 }
 .jo-group:before {
   content: "\e92c";
@@ -103,39 +142,12 @@ i {
 .jo-pintrest:before {
   content: "\e916";
 }
-.jo-close:before {
-  content: "\e900";
-}
-.jo-check:before {
-  content: "\e903";
-}
-.jo-star:before {
-  content: "\e904";
-}
 .jo-options:before {
   content: "\e905";
-}
-.jo-search:before {
-  content: "\e906";
 }
 .jo-more-horizontal:before {
   content: "\e907";
 }
 .jo-more-vertical:before {
   content: "\e909";
-}
-.jo-map-pin:before {
-  content: "\e90a";
-}
-.jo-arrow-up:before {
-  content: "\e90b";
-}
-.jo-arrow-right:before {
-  content: "\e90c";
-}
-.jo-arrow-left:before {
-  content: "\e90d";
-}
-.jo-arrow-down:before {
-  content: "\e90e";
 }
